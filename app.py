@@ -4,6 +4,9 @@ import plotly.graph_objects as go
 from pe_classifier import MalwareClassifier
 from threat_classifier import ThreatClassifier
 from phishing_dataset import PhishingFeatureExtractor
+from brute_detector import BruteForceDetector
+from brute_dataset import BruteForceDataset
+from cve_predictor import CVESeverityPredictor
 import numpy as np
 import hashlib
 import random
@@ -179,33 +182,30 @@ def main():
     st.markdown("### Security Operations Center - ML-Powered Threat Detection")
     
     # Dashboard info
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
-        st.info("""
-        **📄 Threat Intelligence**
-        - Category prediction
-        - TF-IDF + Linear SVM
-        - Key term extraction
-        """)
+        st.info("**📄 Threat Intel**\n- Category prediction\n- NLP Analysis")
     with col2:
-        st.info("""
-        **🔍 PE Malware Scanner**
-        - 19 PE header features
-        - Random Forest & LightGBM
-        - Static binary analysis
-        """)
+        st.info("**🔍 PE Scanner**\n- Malware Detection\n- Static Analysis")
     with col3:
-        st.info("""
-        **🔗 Phishing URL Detector**
-        - 16 URL/domain features
-        - ML risk scoring
-        - Feature importance
-        """)
+        st.info("**🔗 Phishing URL**\n- Risk Scoring\n- Feature Weights")
+    with col4:
+        st.info("**🛡️ Brute Force**\n- Log Analysis\n- Behavioral ML")
+    with col5:
+        st.info("**🏷️ CVE Predictor**\n- Severity Rating\n- CVSS Estimation")
     
     st.markdown("---")
     
     # Navigation
-    tab1, tab2, tab3 = st.tabs(["📄 Threat Intelligence", "🔍 PE Malware Scanner", "🔗 Phishing URL Detector"])
+    tabs = st.tabs([
+        "📄 Threat Intelligence", 
+        "🔍 PE Malware Scanner", 
+        "🔗 Phishing URL Detector",
+        "🛡️ Brute Force Detector",
+        "🏷️ CVE Severity Predictor"
+    ])
+    
+    tab1, tab2, tab3, tab4, tab5 = tabs
     
     with tab1:
         threat_intelligence_page()
@@ -215,6 +215,12 @@ def main():
         
     with tab3:
         phishing_url_page()
+
+    with tab4:
+        brute_force_page()
+
+    with tab5:
+        cve_severity_page()
 
 def generate_phishing_url_examples():
     """Auto-generate realistic Phishing and Safe URLs"""
@@ -853,6 +859,184 @@ Key Indicators:
                 height=400
             )
             st.plotly_chart(fig, use_container_width=True)
+
+def generate_cve_examples():
+    """Auto-generate realistic CVE descriptions"""
+    products = ['Enterprise VPN', 'Core API Engine', 'Web Server Pro', 'Database Express', 'Cloud Storage Gateway']
+    vulnerabilities = [
+        'Remote Code Execution (RCE)', 'SQL Injection', 'Cross-Site Scripting (XSS)', 
+        'Privilege Escalation', 'Authentication Bypass', 'Buffer Overflow'
+    ]
+    components = ['authentication module', 'input validator', 'session manager', 'kernel driver', 'REST API endpoint']
+    
+    examples = {
+        'Critical/High': [],
+        'Medium/Low': []
+    }
+    
+    # 3 Critical/High
+    for _ in range(3):
+        p = random.choice(products)
+        v = random.choice(['Remote Code Execution', 'Authentication Bypass', 'Privilege Escalation'])
+        c = random.choice(components)
+        examples['Critical/High'].append(f"A critical {v} vulnerability in {p}'s {c} allows an unauthenticated attacker to gain full system control.")
+        
+    # 3 Medium/Low
+    for _ in range(3):
+        p = random.choice(products)
+        v = random.choice(['Cross-Site Scripting', 'Information Disclosure', 'Open Redirect'])
+        c = random.choice(components)
+        examples['Medium/Low'].append(f"A {v} vulnerability exists in {p} due to improper sanitization in the {c}. This may lead to unauthorized data exposure.")
+        
+    return examples
+
+def regenerate_cve_examples():
+    st.session_state.cve_examples = generate_cve_examples()
+    if 'cve_example_version' not in st.session_state:
+        st.session_state.cve_example_version = 0
+    st.session_state.cve_example_version += 1
+    st.toast("New CVE examples generated!", icon="🏷️")
+
+def update_cve_input(text):
+    st.session_state.cve_input = text
+
+def regenerate_brute_logs():
+    ds = BruteForceDataset()
+    ds.generate_data() # Force regenerate
+    st.toast("New attack patterns generated in logs!", icon="🛡️")
+
+def brute_force_page():
+    """Brute Force Attack Detector page"""
+    st.header("🛡️ Brute Force Attack Detector")
+    st.markdown("### Detect brute-force attempts from authentication logs")
+    
+    detector = BruteForceDetector()
+    try:
+        detector.model = joblib.load('brute_models/brute_model.pkl')
+        st.success("✓ Brute Force Model Loaded")
+    except:
+        st.error("Model not found. Run: `python brute_train.py` first.")
+        return
+
+    st.subheader("📊 Log Analysis")
+    
+    col1, col2 = st.columns([1, 4])
+    with col1:
+        analyze_brute = st.button("🚀 Run Detection", type="primary", use_container_width=True)
+        st.button("🔄 Generate New Logs", on_click=regenerate_brute_logs, use_container_width=True)
+    
+    if analyze_brute:
+        ds = BruteForceDataset()
+        df = ds.load_data()
+        alerts = detector.predict(df)
+        if not alerts.empty:
+            st.warning(f"🚨 Detected {len(alerts)} suspicious activity windows!")
+            
+            # Display alerts
+            st.dataframe(alerts[['timestamp', 'source_ip', 'attempts', 'unique_users', 'confidence']].head(20), use_container_width=True)
+            
+            # Plot
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=alerts['timestamp'], y=alerts['attempts'], mode='markers', 
+                                   marker=dict(size=10, color=alerts['confidence'], colorscale='Reds', showscale=True),
+                                   text=alerts['source_ip']))
+            fig.update_layout(title="Detected Attack Clusters (Attempts vs Time)", xaxis_title="Time", yaxis_title="Attempts")
+            st.plotly_chart(fig, use_container_width=True)
+            
+            # Copy Report
+            with st.expander("📋 Copy Alert Report"):
+                top_ip = alerts.iloc[0]['source_ip']
+                report = f"BRUTE FORCE ALERT\nIP: {top_ip}\nTotal Attack Windows: {len(alerts)}\nStatus: CRITICAL"
+                st.code(report, language=None)
+        else:
+            st.success("✅ No brute force attacks detected in the logs.")
+
+def cve_severity_page():
+    """CVE Severity Predictor page"""
+    st.header("🏷️ CVE Severity Predictor")
+    st.markdown("### Predict vulnerability severity from description and metadata")
+    
+    predictor = CVESeverityPredictor()
+    try:
+        predictor.model = joblib.load('cve_models/cve_model.pkl')
+        st.success("✓ CVE Predictor Model Loaded")
+    except:
+        st.error("Model not found. Run: `python cve_train.py` first.")
+        return
+
+    st.subheader("🔍 Analyze CVE")
+    
+    if 'cve_input' not in st.session_state:
+        st.session_state.cve_input = ""
+        
+    desc_input = st.text_area(
+        "CVE Description:", 
+        placeholder="e.g., Remote code execution in kernel module...", 
+        height=100,
+        key="cve_input"
+    )
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        vector = st.selectbox("Attack Vector:", ['NETWORK', 'ADJACENT', 'LOCAL', 'PHYSICAL'])
+    with col2:
+        complexity = st.selectbox("Attack Complexity:", ['LOW', 'MEDIUM', 'HIGH'])
+        
+    if st.button("🎯 Predict Severity", type="primary"):
+        if desc_input:
+            res = predictor.predict(desc_input, vector, complexity)
+            
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                color = {'CRITICAL': 'red', 'HIGH': 'orange', 'MEDIUM': 'yellow', 'LOW': 'green'}[res['severity']]
+                st.markdown(f"### Severity: <span style='color:{color}'>{res['severity']}</span>", unsafe_allow_html=True)
+            with col2:
+                st.metric("Confidence", f"{res['confidence']:.2%}")
+            with col3:
+                st.markdown(f"**Key Terms:** {', '.join(res['top_keywords'])}")
+                
+            # Copy report
+            with st.expander("📋 Copy CVE Report"):
+                report = f"CVE SEVERITY REPORT\nDescription: {desc_input}\nPredicted Severity: {res['severity']}\nConfidence: {res['confidence']:.2%}\nKeywords: {', '.join(res['top_keywords'])}"
+                st.code(report, language=None)
+        else:
+            st.warning("Please enter a CVE description.")
+
+    # Examples
+    st.markdown("---")
+    st.subheader("💡 Auto-Generated Examples")
+    
+    if 'cve_examples' not in st.session_state:
+        st.session_state.cve_examples = generate_cve_examples()
+    if 'cve_example_version' not in st.session_state:
+        st.session_state.cve_example_version = 0
+        
+    col1, col2 = st.columns(2)
+    version = st.session_state.cve_example_version
+    
+    with col1:
+        st.markdown("**Critical/High Examples:**")
+        for i, text in enumerate(st.session_state.cve_examples['Critical/High']):
+            st.button(
+                f"🚨 {text[:40]}...", 
+                key=f"cve_high_auto_{i}_{version}", 
+                on_click=update_cve_input, 
+                args=(text,),
+                use_container_width=True
+            )
+            
+    with col2:
+        st.markdown("**Medium/Low Examples:**")
+        for i, text in enumerate(st.session_state.cve_examples['Medium/Low']):
+            st.button(
+                f"🟡 {text[:40]}...", 
+                key=f"cve_low_auto_{i}_{version}", 
+                on_click=update_cve_input, 
+                args=(text,),
+                use_container_width=True
+            )
+            
+    st.button("🔄 Generate New CVE Examples", on_click=regenerate_cve_examples, use_container_width=True)
 
 if __name__ == "__main__":
     main()

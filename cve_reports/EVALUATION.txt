@@ -1,0 +1,5 @@
+CVE SEVERITY PREDICTION EVALUATION
+==================================
+Model: TF-IDF + XGBoost
+Classes: LOW, MEDIUM, HIGH, CRITICAL
+Status: Fully Operational

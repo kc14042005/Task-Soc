@@ -1,0 +1,1001 @@
+description,attack_vector,complexity,severity,label
+privilege escalation to root affects version 2.0.,PHYSICAL,LOW,CRITICAL,3
+privilege escalation to root exists in core component.,NETWORK,LOW,CRITICAL,3
+rce via serialized object in legacy module.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel affects version 2.0.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+unauthenticated access discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+remote code execution affects version 2.0.,LOCAL,LOW,CRITICAL,3
+buffer overflow in kernel exists in core component.,LOCAL,LOW,CRITICAL,3
+remote code execution discovered in beta branch.,LOCAL,LOW,CRITICAL,3
+privilege escalation to root in legacy module.,ADJACENT,LOW,CRITICAL,3
+remote code execution exists in core component.,PHYSICAL,LOW,CRITICAL,3
+unauthenticated access in legacy module.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,NETWORK,LOW,CRITICAL,3
+unauthenticated access exists in core component.,ADJACENT,LOW,CRITICAL,3
+remote code execution discovered in beta branch.,LOCAL,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access exists in core component.,LOCAL,LOW,CRITICAL,3
+rce via serialized object discovered in beta branch.,PHYSICAL,LOW,CRITICAL,3
+unauthenticated access exists in core component.,ADJACENT,LOW,CRITICAL,3
+buffer overflow in kernel in legacy module.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root affects version 2.0.,NETWORK,LOW,CRITICAL,3
+remote code execution discovered in beta branch.,LOCAL,LOW,CRITICAL,3
+remote code execution exists in core component.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root in legacy module.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root discovered in beta branch.,ADJACENT,LOW,CRITICAL,3
+privilege escalation to root affects version 2.0.,LOCAL,LOW,CRITICAL,3
+bypass authentication in administrative portal affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access exists in core component.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access exists in core component.,ADJACENT,LOW,CRITICAL,3
+rce via serialized object affects version 2.0.,NETWORK,LOW,CRITICAL,3
+remote code execution exists in core component.,ADJACENT,LOW,CRITICAL,3
+sql injection allows full database dump discovered in beta branch.,LOCAL,LOW,CRITICAL,3
+remote code execution exists in core component.,LOCAL,LOW,CRITICAL,3
+buffer overflow in kernel affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+privilege escalation to root affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+remote code execution discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+rce via serialized object in legacy module.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal affects version 2.0.,NETWORK,LOW,CRITICAL,3
+rce via serialized object affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+privilege escalation to root discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root affects version 2.0.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,LOCAL,LOW,CRITICAL,3
+rce via serialized object exists in core component.,LOCAL,LOW,CRITICAL,3
+remote code execution in legacy module.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+remote code execution exists in core component.,LOCAL,LOW,CRITICAL,3
+privilege escalation to root affects version 2.0.,PHYSICAL,LOW,CRITICAL,3
+bypass authentication in administrative portal in legacy module.,LOCAL,LOW,CRITICAL,3
+unauthenticated access affects version 2.0.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal affects version 2.0.,LOCAL,LOW,CRITICAL,3
+privilege escalation to root exists in core component.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel exists in core component.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel exists in core component.,ADJACENT,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+remote code execution affects version 2.0.,NETWORK,LOW,CRITICAL,3
+unauthenticated access in legacy module.,LOCAL,LOW,CRITICAL,3
+remote code execution in legacy module.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root exists in core component.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root in legacy module.,ADJACENT,LOW,CRITICAL,3
+remote code execution exists in core component.,NETWORK,LOW,CRITICAL,3
+remote code execution discovered in beta branch.,ADJACENT,LOW,CRITICAL,3
+bypass authentication in administrative portal exists in core component.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access in legacy module.,NETWORK,LOW,CRITICAL,3
+remote code execution exists in core component.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump in legacy module.,NETWORK,LOW,CRITICAL,3
+remote code execution discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+rce via serialized object affects version 2.0.,LOCAL,LOW,CRITICAL,3
+rce via serialized object exists in core component.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal discovered in beta branch.,LOCAL,LOW,CRITICAL,3
+privilege escalation to root exists in core component.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal in legacy module.,LOCAL,LOW,CRITICAL,3
+bypass authentication in administrative portal exists in core component.,NETWORK,LOW,CRITICAL,3
+unauthenticated access exists in core component.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+rce via serialized object affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+buffer overflow in kernel discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+remote code execution discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+remote code execution affects version 2.0.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,LOCAL,LOW,CRITICAL,3
+remote code execution in legacy module.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,NETWORK,LOW,CRITICAL,3
+unauthenticated access discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal in legacy module.,NETWORK,LOW,CRITICAL,3
+remote code execution discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal in legacy module.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+remote code execution exists in core component.,LOCAL,LOW,CRITICAL,3
+privilege escalation to root in legacy module.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal in legacy module.,ADJACENT,LOW,CRITICAL,3
+remote code execution exists in core component.,NETWORK,LOW,CRITICAL,3
+unauthenticated access affects version 2.0.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal in legacy module.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,ADJACENT,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,NETWORK,LOW,CRITICAL,3
+remote code execution exists in core component.,ADJACENT,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,LOCAL,LOW,CRITICAL,3
+bypass authentication in administrative portal discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal in legacy module.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump in legacy module.,LOCAL,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal exists in core component.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel affects version 2.0.,NETWORK,LOW,CRITICAL,3
+remote code execution in legacy module.,LOCAL,LOW,CRITICAL,3
+remote code execution affects version 2.0.,LOCAL,LOW,CRITICAL,3
+rce via serialized object affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+buffer overflow in kernel affects version 2.0.,LOCAL,LOW,CRITICAL,3
+remote code execution affects version 2.0.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal exists in core component.,NETWORK,LOW,CRITICAL,3
+remote code execution affects version 2.0.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root exists in core component.,ADJACENT,LOW,CRITICAL,3
+bypass authentication in administrative portal affects version 2.0.,NETWORK,LOW,CRITICAL,3
+rce via serialized object affects version 2.0.,LOCAL,LOW,CRITICAL,3
+bypass authentication in administrative portal exists in core component.,NETWORK,LOW,CRITICAL,3
+remote code execution discovered in beta branch.,ADJACENT,LOW,CRITICAL,3
+remote code execution exists in core component.,NETWORK,LOW,CRITICAL,3
+remote code execution in legacy module.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root affects version 2.0.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel exists in core component.,NETWORK,LOW,CRITICAL,3
+rce via serialized object discovered in beta branch.,LOCAL,LOW,CRITICAL,3
+buffer overflow in kernel exists in core component.,LOCAL,LOW,CRITICAL,3
+unauthenticated access discovered in beta branch.,ADJACENT,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,LOCAL,LOW,CRITICAL,3
+sql injection allows full database dump in legacy module.,LOCAL,LOW,CRITICAL,3
+privilege escalation to root in legacy module.,LOCAL,LOW,CRITICAL,3
+privilege escalation to root exists in core component.,LOCAL,LOW,CRITICAL,3
+bypass authentication in administrative portal in legacy module.,NETWORK,LOW,CRITICAL,3
+remote code execution exists in core component.,ADJACENT,LOW,CRITICAL,3
+remote code execution exists in core component.,NETWORK,LOW,CRITICAL,3
+rce via serialized object exists in core component.,LOCAL,LOW,CRITICAL,3
+bypass authentication in administrative portal discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal affects version 2.0.,NETWORK,LOW,CRITICAL,3
+remote code execution exists in core component.,NETWORK,LOW,CRITICAL,3
+remote code execution affects version 2.0.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,NETWORK,LOW,CRITICAL,3
+rce via serialized object exists in core component.,LOCAL,LOW,CRITICAL,3
+buffer overflow in kernel discovered in beta branch.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access in legacy module.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal in legacy module.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel exists in core component.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal in legacy module.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+buffer overflow in kernel discovered in beta branch.,LOCAL,LOW,CRITICAL,3
+unauthenticated access discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+remote code execution exists in core component.,ADJACENT,LOW,CRITICAL,3
+privilege escalation to root in legacy module.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel exists in core component.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access affects version 2.0.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel affects version 2.0.,NETWORK,LOW,CRITICAL,3
+remote code execution affects version 2.0.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,NETWORK,LOW,CRITICAL,3
+rce via serialized object affects version 2.0.,LOCAL,LOW,CRITICAL,3
+unauthenticated access affects version 2.0.,PHYSICAL,LOW,CRITICAL,3
+unauthenticated access in legacy module.,LOCAL,LOW,CRITICAL,3
+privilege escalation to root in legacy module.,PHYSICAL,LOW,CRITICAL,3
+rce via serialized object in legacy module.,NETWORK,LOW,CRITICAL,3
+remote code execution exists in core component.,PHYSICAL,LOW,CRITICAL,3
+privilege escalation to root in legacy module.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,NETWORK,LOW,CRITICAL,3
+unauthenticated access in legacy module.,LOCAL,LOW,CRITICAL,3
+sql injection allows full database dump discovered in beta branch.,LOCAL,LOW,CRITICAL,3
+buffer overflow in kernel in legacy module.,PHYSICAL,LOW,CRITICAL,3
+rce via serialized object exists in core component.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal affects version 2.0.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel exists in core component.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel in legacy module.,NETWORK,LOW,CRITICAL,3
+rce via serialized object affects version 2.0.,LOCAL,LOW,CRITICAL,3
+rce via serialized object in legacy module.,LOCAL,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access affects version 2.0.,PHYSICAL,LOW,CRITICAL,3
+rce via serialized object affects version 2.0.,LOCAL,LOW,CRITICAL,3
+remote code execution exists in core component.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal discovered in beta branch.,PHYSICAL,LOW,CRITICAL,3
+sql injection allows full database dump discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+unauthenticated access discovered in beta branch.,ADJACENT,LOW,CRITICAL,3
+remote code execution discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,ADJACENT,LOW,CRITICAL,3
+rce via serialized object in legacy module.,ADJACENT,LOW,CRITICAL,3
+rce via serialized object affects version 2.0.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump discovered in beta branch.,LOCAL,LOW,CRITICAL,3
+rce via serialized object discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+rce via serialized object discovered in beta branch.,LOCAL,LOW,CRITICAL,3
+remote code execution affects version 2.0.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root in legacy module.,NETWORK,LOW,CRITICAL,3
+unauthenticated access exists in core component.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root exists in core component.,LOCAL,LOW,CRITICAL,3
+unauthenticated access in legacy module.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,NETWORK,LOW,CRITICAL,3
+rce via serialized object affects version 2.0.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+privilege escalation to root exists in core component.,ADJACENT,LOW,CRITICAL,3
+buffer overflow in kernel exists in core component.,NETWORK,LOW,CRITICAL,3
+unauthenticated access exists in core component.,LOCAL,LOW,CRITICAL,3
+rce via serialized object discovered in beta branch.,ADJACENT,LOW,CRITICAL,3
+remote code execution affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+buffer overflow in kernel exists in core component.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal affects version 2.0.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,PHYSICAL,LOW,CRITICAL,3
+buffer overflow in kernel discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+remote code execution exists in core component.,LOCAL,LOW,CRITICAL,3
+privilege escalation to root exists in core component.,NETWORK,LOW,CRITICAL,3
+remote code execution in legacy module.,NETWORK,LOW,CRITICAL,3
+remote code execution in legacy module.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+rce via serialized object in legacy module.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel in legacy module.,NETWORK,LOW,CRITICAL,3
+remote code execution discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel exists in core component.,ADJACENT,LOW,CRITICAL,3
+bypass authentication in administrative portal discovered in beta branch.,LOCAL,LOW,CRITICAL,3
+rce via serialized object exists in core component.,NETWORK,LOW,CRITICAL,3
+rce via serialized object discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+unauthenticated access discovered in beta branch.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,NETWORK,LOW,CRITICAL,3
+unauthenticated access affects version 2.0.,LOCAL,LOW,CRITICAL,3
+privilege escalation to root exists in core component.,ADJACENT,LOW,CRITICAL,3
+bypass authentication in administrative portal affects version 2.0.,NETWORK,LOW,CRITICAL,3
+unauthenticated access exists in core component.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,LOCAL,LOW,CRITICAL,3
+buffer overflow in kernel discovered in beta branch.,ADJACENT,LOW,CRITICAL,3
+unauthenticated access in legacy module.,LOCAL,LOW,CRITICAL,3
+remote code execution in legacy module.,NETWORK,LOW,CRITICAL,3
+remote code execution in legacy module.,LOCAL,LOW,CRITICAL,3
+remote code execution in legacy module.,NETWORK,LOW,CRITICAL,3
+buffer overflow in kernel affects version 2.0.,ADJACENT,LOW,CRITICAL,3
+rce via serialized object in legacy module.,NETWORK,LOW,CRITICAL,3
+sql injection allows full database dump affects version 2.0.,NETWORK,LOW,CRITICAL,3
+unauthenticated access exists in core component.,NETWORK,LOW,CRITICAL,3
+remote code execution exists in core component.,ADJACENT,LOW,CRITICAL,3
+sql injection allows full database dump exists in core component.,NETWORK,LOW,CRITICAL,3
+remote code execution affects version 2.0.,NETWORK,LOW,CRITICAL,3
+bypass authentication in administrative portal affects version 2.0.,NETWORK,LOW,CRITICAL,3
+rce via serialized object in legacy module.,NETWORK,LOW,CRITICAL,3
+misconfigured access control affects version 2.0.,LOCAL,HIGH,HIGH,2
+insecure direct object reference discovered in beta branch.,ADJACENT,MEDIUM,HIGH,2
+directory traversal in web server discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+cross-site scripting in search field exists in core component.,NETWORK,HIGH,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,NETWORK,HIGH,HIGH,2
+information disclosure of sensitive configs discovered in beta branch.,NETWORK,HIGH,HIGH,2
+information disclosure of sensitive configs exists in core component.,NETWORK,HIGH,HIGH,2
+insecure direct object reference discovered in beta branch.,LOCAL,LOW,HIGH,2
+cross-site scripting in search field discovered in beta branch.,NETWORK,HIGH,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,NETWORK,HIGH,HIGH,2
+insecure direct object reference in legacy module.,NETWORK,HIGH,HIGH,2
+insecure direct object reference discovered in beta branch.,NETWORK,HIGH,HIGH,2
+denial of service via memory exhaustion in legacy module.,LOCAL,HIGH,HIGH,2
+cross-site scripting in search field in legacy module.,NETWORK,HIGH,HIGH,2
+insecure direct object reference exists in core component.,PHYSICAL,LOW,HIGH,2
+cross-site scripting in search field discovered in beta branch.,NETWORK,HIGH,HIGH,2
+misconfigured access control discovered in beta branch.,ADJACENT,LOW,HIGH,2
+denial of service via memory exhaustion in legacy module.,LOCAL,MEDIUM,HIGH,2
+cross-site scripting in search field exists in core component.,NETWORK,MEDIUM,HIGH,2
+information disclosure of sensitive configs exists in core component.,LOCAL,LOW,HIGH,2
+information disclosure of sensitive configs discovered in beta branch.,LOCAL,HIGH,HIGH,2
+misconfigured access control affects version 2.0.,ADJACENT,HIGH,HIGH,2
+cross-site scripting in search field discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+misconfigured access control in legacy module.,NETWORK,LOW,HIGH,2
+information disclosure of sensitive configs in legacy module.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field affects version 2.0.,ADJACENT,HIGH,HIGH,2
+misconfigured access control affects version 2.0.,NETWORK,HIGH,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,NETWORK,LOW,HIGH,2
+misconfigured access control discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,NETWORK,LOW,HIGH,2
+insecure direct object reference discovered in beta branch.,PHYSICAL,MEDIUM,HIGH,2
+misconfigured access control in legacy module.,NETWORK,HIGH,HIGH,2
+cross-site scripting in search field discovered in beta branch.,NETWORK,LOW,HIGH,2
+insecure direct object reference exists in core component.,PHYSICAL,LOW,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,NETWORK,HIGH,HIGH,2
+directory traversal in web server affects version 2.0.,NETWORK,LOW,HIGH,2
+insecure direct object reference exists in core component.,NETWORK,HIGH,HIGH,2
+cross-site scripting in search field in legacy module.,NETWORK,MEDIUM,HIGH,2
+denial of service via memory exhaustion in legacy module.,PHYSICAL,LOW,HIGH,2
+cross-site scripting in search field affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+directory traversal in web server affects version 2.0.,ADJACENT,MEDIUM,HIGH,2
+insecure direct object reference discovered in beta branch.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field in legacy module.,LOCAL,HIGH,HIGH,2
+misconfigured access control exists in core component.,NETWORK,MEDIUM,HIGH,2
+cross-site scripting in search field discovered in beta branch.,LOCAL,LOW,HIGH,2
+directory traversal in web server exists in core component.,NETWORK,HIGH,HIGH,2
+information disclosure of sensitive configs exists in core component.,NETWORK,MEDIUM,HIGH,2
+insecure direct object reference exists in core component.,LOCAL,LOW,HIGH,2
+directory traversal in web server in legacy module.,PHYSICAL,HIGH,HIGH,2
+insecure direct object reference in legacy module.,NETWORK,MEDIUM,HIGH,2
+information disclosure of sensitive configs exists in core component.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field exists in core component.,PHYSICAL,LOW,HIGH,2
+information disclosure of sensitive configs affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+directory traversal in web server affects version 2.0.,NETWORK,HIGH,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,LOW,HIGH,2
+insecure direct object reference discovered in beta branch.,NETWORK,HIGH,HIGH,2
+misconfigured access control in legacy module.,NETWORK,HIGH,HIGH,2
+misconfigured access control exists in core component.,NETWORK,HIGH,HIGH,2
+cross-site scripting in search field in legacy module.,PHYSICAL,LOW,HIGH,2
+directory traversal in web server exists in core component.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+cross-site scripting in search field exists in core component.,NETWORK,MEDIUM,HIGH,2
+insecure direct object reference in legacy module.,ADJACENT,MEDIUM,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,LOW,HIGH,2
+misconfigured access control exists in core component.,ADJACENT,MEDIUM,HIGH,2
+cross-site scripting in search field affects version 2.0.,NETWORK,HIGH,HIGH,2
+misconfigured access control discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+cross-site scripting in search field in legacy module.,LOCAL,HIGH,HIGH,2
+insecure direct object reference affects version 2.0.,PHYSICAL,LOW,HIGH,2
+directory traversal in web server discovered in beta branch.,NETWORK,HIGH,HIGH,2
+information disclosure of sensitive configs affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,MEDIUM,HIGH,2
+directory traversal in web server exists in core component.,NETWORK,LOW,HIGH,2
+misconfigured access control affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,NETWORK,HIGH,HIGH,2
+denial of service via memory exhaustion exists in core component.,ADJACENT,MEDIUM,HIGH,2
+cross-site scripting in search field exists in core component.,ADJACENT,HIGH,HIGH,2
+information disclosure of sensitive configs in legacy module.,NETWORK,LOW,HIGH,2
+insecure direct object reference discovered in beta branch.,ADJACENT,HIGH,HIGH,2
+misconfigured access control affects version 2.0.,ADJACENT,LOW,HIGH,2
+directory traversal in web server affects version 2.0.,ADJACENT,MEDIUM,HIGH,2
+insecure direct object reference exists in core component.,ADJACENT,HIGH,HIGH,2
+information disclosure of sensitive configs affects version 2.0.,LOCAL,MEDIUM,HIGH,2
+misconfigured access control in legacy module.,NETWORK,LOW,HIGH,2
+information disclosure of sensitive configs exists in core component.,LOCAL,HIGH,HIGH,2
+directory traversal in web server exists in core component.,ADJACENT,LOW,HIGH,2
+cross-site scripting in search field exists in core component.,ADJACENT,HIGH,HIGH,2
+denial of service via memory exhaustion in legacy module.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field in legacy module.,NETWORK,MEDIUM,HIGH,2
+insecure direct object reference affects version 2.0.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field discovered in beta branch.,LOCAL,HIGH,HIGH,2
+denial of service via memory exhaustion in legacy module.,NETWORK,HIGH,HIGH,2
+misconfigured access control in legacy module.,ADJACENT,LOW,HIGH,2
+directory traversal in web server affects version 2.0.,ADJACENT,MEDIUM,HIGH,2
+cross-site scripting in search field affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+misconfigured access control discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+misconfigured access control discovered in beta branch.,NETWORK,LOW,HIGH,2
+misconfigured access control in legacy module.,NETWORK,LOW,HIGH,2
+information disclosure of sensitive configs discovered in beta branch.,NETWORK,HIGH,HIGH,2
+insecure direct object reference discovered in beta branch.,LOCAL,HIGH,HIGH,2
+misconfigured access control in legacy module.,NETWORK,HIGH,HIGH,2
+cross-site scripting in search field affects version 2.0.,ADJACENT,MEDIUM,HIGH,2
+insecure direct object reference discovered in beta branch.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field affects version 2.0.,LOCAL,HIGH,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,NETWORK,HIGH,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+denial of service via memory exhaustion in legacy module.,ADJACENT,LOW,HIGH,2
+cross-site scripting in search field affects version 2.0.,ADJACENT,MEDIUM,HIGH,2
+misconfigured access control discovered in beta branch.,NETWORK,LOW,HIGH,2
+directory traversal in web server discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+misconfigured access control discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,NETWORK,LOW,HIGH,2
+information disclosure of sensitive configs discovered in beta branch.,NETWORK,HIGH,HIGH,2
+information disclosure of sensitive configs discovered in beta branch.,NETWORK,HIGH,HIGH,2
+denial of service via memory exhaustion in legacy module.,LOCAL,HIGH,HIGH,2
+information disclosure of sensitive configs exists in core component.,ADJACENT,LOW,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,LOCAL,HIGH,HIGH,2
+cross-site scripting in search field in legacy module.,LOCAL,HIGH,HIGH,2
+directory traversal in web server exists in core component.,NETWORK,HIGH,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,ADJACENT,HIGH,HIGH,2
+directory traversal in web server exists in core component.,NETWORK,HIGH,HIGH,2
+directory traversal in web server affects version 2.0.,NETWORK,HIGH,HIGH,2
+insecure direct object reference affects version 2.0.,NETWORK,LOW,HIGH,2
+denial of service via memory exhaustion in legacy module.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+information disclosure of sensitive configs in legacy module.,LOCAL,MEDIUM,HIGH,2
+insecure direct object reference discovered in beta branch.,NETWORK,HIGH,HIGH,2
+information disclosure of sensitive configs exists in core component.,LOCAL,HIGH,HIGH,2
+denial of service via memory exhaustion in legacy module.,ADJACENT,LOW,HIGH,2
+insecure direct object reference affects version 2.0.,NETWORK,LOW,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,NETWORK,LOW,HIGH,2
+information disclosure of sensitive configs discovered in beta branch.,ADJACENT,MEDIUM,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,HIGH,HIGH,2
+information disclosure of sensitive configs in legacy module.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+denial of service via memory exhaustion in legacy module.,ADJACENT,LOW,HIGH,2
+misconfigured access control exists in core component.,ADJACENT,HIGH,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,ADJACENT,LOW,HIGH,2
+directory traversal in web server in legacy module.,ADJACENT,HIGH,HIGH,2
+misconfigured access control exists in core component.,PHYSICAL,HIGH,HIGH,2
+directory traversal in web server in legacy module.,PHYSICAL,HIGH,HIGH,2
+information disclosure of sensitive configs exists in core component.,ADJACENT,LOW,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,LOCAL,MEDIUM,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,NETWORK,HIGH,HIGH,2
+information disclosure of sensitive configs discovered in beta branch.,LOCAL,LOW,HIGH,2
+insecure direct object reference exists in core component.,LOCAL,MEDIUM,HIGH,2
+insecure direct object reference affects version 2.0.,ADJACENT,MEDIUM,HIGH,2
+information disclosure of sensitive configs exists in core component.,ADJACENT,HIGH,HIGH,2
+directory traversal in web server affects version 2.0.,LOCAL,MEDIUM,HIGH,2
+denial of service via memory exhaustion in legacy module.,PHYSICAL,HIGH,HIGH,2
+denial of service via memory exhaustion in legacy module.,LOCAL,HIGH,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,HIGH,HIGH,2
+misconfigured access control discovered in beta branch.,LOCAL,LOW,HIGH,2
+insecure direct object reference exists in core component.,LOCAL,LOW,HIGH,2
+misconfigured access control affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+insecure direct object reference discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+misconfigured access control exists in core component.,NETWORK,MEDIUM,HIGH,2
+cross-site scripting in search field exists in core component.,NETWORK,LOW,HIGH,2
+information disclosure of sensitive configs exists in core component.,ADJACENT,LOW,HIGH,2
+cross-site scripting in search field affects version 2.0.,ADJACENT,MEDIUM,HIGH,2
+cross-site scripting in search field discovered in beta branch.,ADJACENT,MEDIUM,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,MEDIUM,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,NETWORK,LOW,HIGH,2
+information disclosure of sensitive configs exists in core component.,NETWORK,MEDIUM,HIGH,2
+directory traversal in web server exists in core component.,LOCAL,HIGH,HIGH,2
+directory traversal in web server affects version 2.0.,NETWORK,LOW,HIGH,2
+directory traversal in web server in legacy module.,LOCAL,LOW,HIGH,2
+denial of service via memory exhaustion in legacy module.,ADJACENT,LOW,HIGH,2
+information disclosure of sensitive configs exists in core component.,ADJACENT,HIGH,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,LOW,HIGH,2
+directory traversal in web server exists in core component.,NETWORK,MEDIUM,HIGH,2
+insecure direct object reference in legacy module.,NETWORK,HIGH,HIGH,2
+insecure direct object reference affects version 2.0.,NETWORK,LOW,HIGH,2
+information disclosure of sensitive configs in legacy module.,LOCAL,HIGH,HIGH,2
+cross-site scripting in search field affects version 2.0.,ADJACENT,HIGH,HIGH,2
+insecure direct object reference affects version 2.0.,PHYSICAL,MEDIUM,HIGH,2
+information disclosure of sensitive configs affects version 2.0.,PHYSICAL,MEDIUM,HIGH,2
+cross-site scripting in search field exists in core component.,NETWORK,HIGH,HIGH,2
+cross-site scripting in search field affects version 2.0.,LOCAL,HIGH,HIGH,2
+cross-site scripting in search field discovered in beta branch.,ADJACENT,MEDIUM,HIGH,2
+insecure direct object reference exists in core component.,NETWORK,MEDIUM,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,MEDIUM,HIGH,2
+information disclosure of sensitive configs in legacy module.,NETWORK,MEDIUM,HIGH,2
+cross-site scripting in search field discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+misconfigured access control discovered in beta branch.,ADJACENT,MEDIUM,HIGH,2
+denial of service via memory exhaustion exists in core component.,NETWORK,MEDIUM,HIGH,2
+information disclosure of sensitive configs in legacy module.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field exists in core component.,NETWORK,MEDIUM,HIGH,2
+directory traversal in web server discovered in beta branch.,LOCAL,MEDIUM,HIGH,2
+cross-site scripting in search field discovered in beta branch.,ADJACENT,LOW,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,LOW,HIGH,2
+information disclosure of sensitive configs in legacy module.,NETWORK,MEDIUM,HIGH,2
+denial of service via memory exhaustion in legacy module.,ADJACENT,LOW,HIGH,2
+misconfigured access control exists in core component.,NETWORK,HIGH,HIGH,2
+information disclosure of sensitive configs in legacy module.,NETWORK,HIGH,HIGH,2
+insecure direct object reference discovered in beta branch.,NETWORK,HIGH,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,PHYSICAL,MEDIUM,HIGH,2
+insecure direct object reference exists in core component.,NETWORK,HIGH,HIGH,2
+insecure direct object reference discovered in beta branch.,ADJACENT,MEDIUM,HIGH,2
+misconfigured access control in legacy module.,LOCAL,HIGH,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+cross-site scripting in search field affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+misconfigured access control exists in core component.,NETWORK,MEDIUM,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,LOW,HIGH,2
+directory traversal in web server discovered in beta branch.,ADJACENT,LOW,HIGH,2
+directory traversal in web server discovered in beta branch.,PHYSICAL,HIGH,HIGH,2
+insecure direct object reference in legacy module.,LOCAL,HIGH,HIGH,2
+directory traversal in web server affects version 2.0.,ADJACENT,MEDIUM,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+insecure direct object reference exists in core component.,NETWORK,HIGH,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,NETWORK,LOW,HIGH,2
+insecure direct object reference discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+misconfigured access control affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+directory traversal in web server in legacy module.,NETWORK,HIGH,HIGH,2
+misconfigured access control discovered in beta branch.,ADJACENT,HIGH,HIGH,2
+information disclosure of sensitive configs exists in core component.,NETWORK,LOW,HIGH,2
+insecure direct object reference discovered in beta branch.,NETWORK,HIGH,HIGH,2
+denial of service via memory exhaustion discovered in beta branch.,LOCAL,HIGH,HIGH,2
+directory traversal in web server discovered in beta branch.,NETWORK,MEDIUM,HIGH,2
+cross-site scripting in search field exists in core component.,LOCAL,MEDIUM,HIGH,2
+directory traversal in web server affects version 2.0.,LOCAL,MEDIUM,HIGH,2
+misconfigured access control discovered in beta branch.,ADJACENT,MEDIUM,HIGH,2
+information disclosure of sensitive configs exists in core component.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+directory traversal in web server affects version 2.0.,LOCAL,HIGH,HIGH,2
+directory traversal in web server affects version 2.0.,NETWORK,LOW,HIGH,2
+misconfigured access control affects version 2.0.,LOCAL,MEDIUM,HIGH,2
+cross-site scripting in search field affects version 2.0.,ADJACENT,MEDIUM,HIGH,2
+directory traversal in web server discovered in beta branch.,PHYSICAL,HIGH,HIGH,2
+directory traversal in web server exists in core component.,LOCAL,MEDIUM,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,NETWORK,LOW,HIGH,2
+insecure direct object reference affects version 2.0.,NETWORK,LOW,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,LOCAL,LOW,HIGH,2
+information disclosure of sensitive configs exists in core component.,NETWORK,LOW,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,NETWORK,MEDIUM,HIGH,2
+cross-site scripting in search field affects version 2.0.,LOCAL,LOW,HIGH,2
+cross-site scripting in search field exists in core component.,NETWORK,HIGH,HIGH,2
+cross-site scripting in search field affects version 2.0.,LOCAL,HIGH,HIGH,2
+directory traversal in web server discovered in beta branch.,NETWORK,HIGH,HIGH,2
+information disclosure of sensitive configs affects version 2.0.,NETWORK,LOW,HIGH,2
+cross-site scripting in search field in legacy module.,NETWORK,HIGH,HIGH,2
+cross-site scripting in search field discovered in beta branch.,PHYSICAL,HIGH,HIGH,2
+directory traversal in web server discovered in beta branch.,NETWORK,LOW,HIGH,2
+denial of service via memory exhaustion in legacy module.,NETWORK,MEDIUM,HIGH,2
+cross-site scripting in search field in legacy module.,NETWORK,HIGH,HIGH,2
+misconfigured access control in legacy module.,NETWORK,HIGH,HIGH,2
+information disclosure of sensitive configs affects version 2.0.,NETWORK,LOW,HIGH,2
+denial of service via memory exhaustion affects version 2.0.,LOCAL,LOW,HIGH,2
+stored xss in user profile in legacy module.,ADJACENT,HIGH,MEDIUM,1
+improper input validation in api affects version 2.0.,LOCAL,MEDIUM,MEDIUM,1
+stored xss in user profile affects version 2.0.,NETWORK,HIGH,MEDIUM,1
+improper input validation in api affects version 2.0.,ADJACENT,HIGH,MEDIUM,1
+session fixation in login discovered in beta branch.,PHYSICAL,HIGH,MEDIUM,1
+stored xss in user profile affects version 2.0.,PHYSICAL,MEDIUM,MEDIUM,1
+stored xss in user profile in legacy module.,ADJACENT,HIGH,MEDIUM,1
+improper input validation in api in legacy module.,ADJACENT,MEDIUM,MEDIUM,1
+stored xss in user profile exists in core component.,PHYSICAL,LOW,MEDIUM,1
+session fixation in login discovered in beta branch.,PHYSICAL,HIGH,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,PHYSICAL,HIGH,MEDIUM,1
+xml external entity (xxe) injection in legacy module.,NETWORK,MEDIUM,MEDIUM,1
+session fixation in login exists in core component.,ADJACENT,MEDIUM,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,ADJACENT,LOW,MEDIUM,1
+improper input validation in api discovered in beta branch.,NETWORK,LOW,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,ADJACENT,MEDIUM,MEDIUM,1
+stored xss in user profile discovered in beta branch.,ADJACENT,LOW,MEDIUM,1
+stored xss in user profile in legacy module.,LOCAL,LOW,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,LOCAL,MEDIUM,MEDIUM,1
+improper input validation in api affects version 2.0.,ADJACENT,MEDIUM,MEDIUM,1
+xml external entity (xxe) injection discovered in beta branch.,LOCAL,HIGH,MEDIUM,1
+stored xss in user profile in legacy module.,LOCAL,LOW,MEDIUM,1
+stored xss in user profile in legacy module.,PHYSICAL,LOW,MEDIUM,1
+reflected xss in error page discovered in beta branch.,ADJACENT,HIGH,MEDIUM,1
+xml external entity (xxe) injection in legacy module.,PHYSICAL,LOW,MEDIUM,1
+session fixation in login affects version 2.0.,NETWORK,MEDIUM,MEDIUM,1
+stored xss in user profile in legacy module.,LOCAL,MEDIUM,MEDIUM,1
+stored xss in user profile affects version 2.0.,PHYSICAL,MEDIUM,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,ADJACENT,LOW,MEDIUM,1
+improper input validation in api affects version 2.0.,PHYSICAL,HIGH,MEDIUM,1
+improper input validation in api exists in core component.,LOCAL,MEDIUM,MEDIUM,1
+improper input validation in api discovered in beta branch.,PHYSICAL,LOW,MEDIUM,1
+improper input validation in api discovered in beta branch.,NETWORK,MEDIUM,MEDIUM,1
+session fixation in login exists in core component.,NETWORK,MEDIUM,MEDIUM,1
+reflected xss in error page in legacy module.,PHYSICAL,MEDIUM,MEDIUM,1
+improper input validation in api exists in core component.,PHYSICAL,LOW,MEDIUM,1
+improper input validation in api in legacy module.,PHYSICAL,MEDIUM,MEDIUM,1
+session fixation in login affects version 2.0.,PHYSICAL,MEDIUM,MEDIUM,1
+improper input validation in api exists in core component.,ADJACENT,LOW,MEDIUM,1
+improper input validation in api discovered in beta branch.,NETWORK,LOW,MEDIUM,1
+xml external entity (xxe) injection in legacy module.,NETWORK,MEDIUM,MEDIUM,1
+stored xss in user profile exists in core component.,ADJACENT,LOW,MEDIUM,1
+session fixation in login in legacy module.,NETWORK,LOW,MEDIUM,1
+improper input validation in api exists in core component.,PHYSICAL,LOW,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,NETWORK,MEDIUM,MEDIUM,1
+xml external entity (xxe) injection in legacy module.,ADJACENT,MEDIUM,MEDIUM,1
+session fixation in login in legacy module.,ADJACENT,HIGH,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,ADJACENT,LOW,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,ADJACENT,LOW,MEDIUM,1
+improper input validation in api discovered in beta branch.,ADJACENT,LOW,MEDIUM,1
+improper input validation in api discovered in beta branch.,LOCAL,MEDIUM,MEDIUM,1
+stored xss in user profile affects version 2.0.,NETWORK,LOW,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,ADJACENT,HIGH,MEDIUM,1
+xml external entity (xxe) injection in legacy module.,LOCAL,HIGH,MEDIUM,1
+improper input validation in api discovered in beta branch.,PHYSICAL,MEDIUM,MEDIUM,1
+reflected xss in error page discovered in beta branch.,PHYSICAL,HIGH,MEDIUM,1
+stored xss in user profile discovered in beta branch.,NETWORK,MEDIUM,MEDIUM,1
+reflected xss in error page exists in core component.,LOCAL,HIGH,MEDIUM,1
+improper input validation in api affects version 2.0.,LOCAL,MEDIUM,MEDIUM,1
+improper input validation in api in legacy module.,NETWORK,HIGH,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,ADJACENT,HIGH,MEDIUM,1
+session fixation in login exists in core component.,LOCAL,LOW,MEDIUM,1
+session fixation in login in legacy module.,PHYSICAL,LOW,MEDIUM,1
+stored xss in user profile affects version 2.0.,PHYSICAL,HIGH,MEDIUM,1
+session fixation in login exists in core component.,ADJACENT,MEDIUM,MEDIUM,1
+stored xss in user profile affects version 2.0.,PHYSICAL,HIGH,MEDIUM,1
+reflected xss in error page discovered in beta branch.,LOCAL,HIGH,MEDIUM,1
+reflected xss in error page in legacy module.,ADJACENT,HIGH,MEDIUM,1
+stored xss in user profile affects version 2.0.,PHYSICAL,HIGH,MEDIUM,1
+reflected xss in error page discovered in beta branch.,NETWORK,HIGH,MEDIUM,1
+xml external entity (xxe) injection in legacy module.,PHYSICAL,MEDIUM,MEDIUM,1
+improper input validation in api in legacy module.,ADJACENT,LOW,MEDIUM,1
+session fixation in login discovered in beta branch.,PHYSICAL,HIGH,MEDIUM,1
+improper input validation in api affects version 2.0.,PHYSICAL,LOW,MEDIUM,1
+session fixation in login affects version 2.0.,NETWORK,HIGH,MEDIUM,1
+improper input validation in api exists in core component.,ADJACENT,HIGH,MEDIUM,1
+improper input validation in api affects version 2.0.,PHYSICAL,LOW,MEDIUM,1
+session fixation in login exists in core component.,PHYSICAL,MEDIUM,MEDIUM,1
+improper input validation in api in legacy module.,NETWORK,LOW,MEDIUM,1
+reflected xss in error page affects version 2.0.,NETWORK,MEDIUM,MEDIUM,1
+improper input validation in api in legacy module.,LOCAL,LOW,MEDIUM,1
+session fixation in login discovered in beta branch.,PHYSICAL,MEDIUM,MEDIUM,1
+reflected xss in error page exists in core component.,NETWORK,HIGH,MEDIUM,1
+improper input validation in api affects version 2.0.,PHYSICAL,LOW,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,PHYSICAL,LOW,MEDIUM,1
+xml external entity (xxe) injection discovered in beta branch.,PHYSICAL,LOW,MEDIUM,1
+session fixation in login affects version 2.0.,PHYSICAL,MEDIUM,MEDIUM,1
+reflected xss in error page discovered in beta branch.,LOCAL,HIGH,MEDIUM,1
+session fixation in login in legacy module.,ADJACENT,HIGH,MEDIUM,1
+session fixation in login discovered in beta branch.,PHYSICAL,LOW,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,LOCAL,MEDIUM,MEDIUM,1
+reflected xss in error page discovered in beta branch.,PHYSICAL,LOW,MEDIUM,1
+stored xss in user profile affects version 2.0.,ADJACENT,LOW,MEDIUM,1
+reflected xss in error page affects version 2.0.,NETWORK,LOW,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,ADJACENT,LOW,MEDIUM,1
+session fixation in login affects version 2.0.,NETWORK,MEDIUM,MEDIUM,1
+reflected xss in error page exists in core component.,NETWORK,LOW,MEDIUM,1
+stored xss in user profile exists in core component.,NETWORK,LOW,MEDIUM,1
+reflected xss in error page discovered in beta branch.,PHYSICAL,MEDIUM,MEDIUM,1
+reflected xss in error page affects version 2.0.,NETWORK,MEDIUM,MEDIUM,1
+reflected xss in error page in legacy module.,NETWORK,LOW,MEDIUM,1
+improper input validation in api affects version 2.0.,PHYSICAL,LOW,MEDIUM,1
+session fixation in login discovered in beta branch.,LOCAL,MEDIUM,MEDIUM,1
+session fixation in login in legacy module.,LOCAL,HIGH,MEDIUM,1
+stored xss in user profile exists in core component.,PHYSICAL,LOW,MEDIUM,1
+improper input validation in api in legacy module.,NETWORK,MEDIUM,MEDIUM,1
+improper input validation in api affects version 2.0.,PHYSICAL,LOW,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,LOCAL,LOW,MEDIUM,1
+improper input validation in api discovered in beta branch.,LOCAL,LOW,MEDIUM,1
+reflected xss in error page discovered in beta branch.,LOCAL,LOW,MEDIUM,1
+reflected xss in error page exists in core component.,LOCAL,MEDIUM,MEDIUM,1
+session fixation in login exists in core component.,ADJACENT,MEDIUM,MEDIUM,1
+improper input validation in api in legacy module.,NETWORK,MEDIUM,MEDIUM,1
+reflected xss in error page discovered in beta branch.,NETWORK,MEDIUM,MEDIUM,1
+reflected xss in error page discovered in beta branch.,LOCAL,HIGH,MEDIUM,1
+reflected xss in error page in legacy module.,PHYSICAL,LOW,MEDIUM,1
+reflected xss in error page exists in core component.,ADJACENT,LOW,MEDIUM,1
+stored xss in user profile discovered in beta branch.,LOCAL,LOW,MEDIUM,1
+session fixation in login affects version 2.0.,ADJACENT,MEDIUM,MEDIUM,1
+improper input validation in api in legacy module.,NETWORK,MEDIUM,MEDIUM,1
+stored xss in user profile in legacy module.,NETWORK,LOW,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,PHYSICAL,HIGH,MEDIUM,1
+stored xss in user profile exists in core component.,PHYSICAL,HIGH,MEDIUM,1
+improper input validation in api in legacy module.,ADJACENT,MEDIUM,MEDIUM,1
+improper input validation in api affects version 2.0.,PHYSICAL,MEDIUM,MEDIUM,1
+stored xss in user profile affects version 2.0.,NETWORK,HIGH,MEDIUM,1
+reflected xss in error page discovered in beta branch.,NETWORK,LOW,MEDIUM,1
+improper input validation in api exists in core component.,NETWORK,HIGH,MEDIUM,1
+session fixation in login in legacy module.,PHYSICAL,LOW,MEDIUM,1
+stored xss in user profile discovered in beta branch.,ADJACENT,MEDIUM,MEDIUM,1
+stored xss in user profile discovered in beta branch.,LOCAL,HIGH,MEDIUM,1
+session fixation in login in legacy module.,ADJACENT,LOW,MEDIUM,1
+reflected xss in error page discovered in beta branch.,NETWORK,LOW,MEDIUM,1
+stored xss in user profile affects version 2.0.,PHYSICAL,HIGH,MEDIUM,1
+xml external entity (xxe) injection in legacy module.,NETWORK,LOW,MEDIUM,1
+stored xss in user profile exists in core component.,LOCAL,MEDIUM,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,NETWORK,HIGH,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,NETWORK,MEDIUM,MEDIUM,1
+reflected xss in error page exists in core component.,ADJACENT,LOW,MEDIUM,1
+reflected xss in error page exists in core component.,LOCAL,LOW,MEDIUM,1
+reflected xss in error page exists in core component.,PHYSICAL,MEDIUM,MEDIUM,1
+session fixation in login affects version 2.0.,PHYSICAL,LOW,MEDIUM,1
+xml external entity (xxe) injection discovered in beta branch.,ADJACENT,HIGH,MEDIUM,1
+stored xss in user profile discovered in beta branch.,PHYSICAL,LOW,MEDIUM,1
+improper input validation in api in legacy module.,ADJACENT,LOW,MEDIUM,1
+stored xss in user profile exists in core component.,LOCAL,LOW,MEDIUM,1
+session fixation in login in legacy module.,LOCAL,HIGH,MEDIUM,1
+stored xss in user profile affects version 2.0.,ADJACENT,LOW,MEDIUM,1
+improper input validation in api in legacy module.,ADJACENT,LOW,MEDIUM,1
+session fixation in login in legacy module.,NETWORK,LOW,MEDIUM,1
+reflected xss in error page discovered in beta branch.,PHYSICAL,HIGH,MEDIUM,1
+stored xss in user profile affects version 2.0.,ADJACENT,HIGH,MEDIUM,1
+session fixation in login in legacy module.,NETWORK,LOW,MEDIUM,1
+stored xss in user profile affects version 2.0.,ADJACENT,LOW,MEDIUM,1
+reflected xss in error page exists in core component.,LOCAL,MEDIUM,MEDIUM,1
+improper input validation in api in legacy module.,ADJACENT,LOW,MEDIUM,1
+reflected xss in error page discovered in beta branch.,NETWORK,MEDIUM,MEDIUM,1
+reflected xss in error page affects version 2.0.,LOCAL,MEDIUM,MEDIUM,1
+reflected xss in error page affects version 2.0.,NETWORK,MEDIUM,MEDIUM,1
+xml external entity (xxe) injection discovered in beta branch.,PHYSICAL,HIGH,MEDIUM,1
+session fixation in login discovered in beta branch.,LOCAL,LOW,MEDIUM,1
+session fixation in login discovered in beta branch.,NETWORK,LOW,MEDIUM,1
+reflected xss in error page affects version 2.0.,NETWORK,HIGH,MEDIUM,1
+xml external entity (xxe) injection discovered in beta branch.,LOCAL,LOW,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,ADJACENT,HIGH,MEDIUM,1
+stored xss in user profile exists in core component.,NETWORK,HIGH,MEDIUM,1
+session fixation in login discovered in beta branch.,PHYSICAL,HIGH,MEDIUM,1
+improper input validation in api exists in core component.,LOCAL,LOW,MEDIUM,1
+reflected xss in error page in legacy module.,LOCAL,LOW,MEDIUM,1
+session fixation in login exists in core component.,NETWORK,LOW,MEDIUM,1
+reflected xss in error page in legacy module.,NETWORK,HIGH,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,NETWORK,MEDIUM,MEDIUM,1
+session fixation in login affects version 2.0.,PHYSICAL,LOW,MEDIUM,1
+stored xss in user profile in legacy module.,NETWORK,MEDIUM,MEDIUM,1
+session fixation in login discovered in beta branch.,PHYSICAL,MEDIUM,MEDIUM,1
+stored xss in user profile affects version 2.0.,NETWORK,LOW,MEDIUM,1
+session fixation in login affects version 2.0.,ADJACENT,LOW,MEDIUM,1
+reflected xss in error page exists in core component.,ADJACENT,HIGH,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,ADJACENT,LOW,MEDIUM,1
+xml external entity (xxe) injection discovered in beta branch.,NETWORK,HIGH,MEDIUM,1
+reflected xss in error page in legacy module.,LOCAL,HIGH,MEDIUM,1
+improper input validation in api exists in core component.,NETWORK,MEDIUM,MEDIUM,1
+reflected xss in error page discovered in beta branch.,NETWORK,LOW,MEDIUM,1
+stored xss in user profile affects version 2.0.,LOCAL,LOW,MEDIUM,1
+session fixation in login affects version 2.0.,ADJACENT,HIGH,MEDIUM,1
+improper input validation in api exists in core component.,NETWORK,HIGH,MEDIUM,1
+reflected xss in error page exists in core component.,ADJACENT,HIGH,MEDIUM,1
+session fixation in login exists in core component.,LOCAL,HIGH,MEDIUM,1
+session fixation in login discovered in beta branch.,ADJACENT,LOW,MEDIUM,1
+reflected xss in error page affects version 2.0.,ADJACENT,HIGH,MEDIUM,1
+improper input validation in api discovered in beta branch.,ADJACENT,MEDIUM,MEDIUM,1
+reflected xss in error page affects version 2.0.,LOCAL,HIGH,MEDIUM,1
+reflected xss in error page exists in core component.,LOCAL,HIGH,MEDIUM,1
+reflected xss in error page in legacy module.,PHYSICAL,HIGH,MEDIUM,1
+reflected xss in error page exists in core component.,LOCAL,LOW,MEDIUM,1
+improper input validation in api affects version 2.0.,PHYSICAL,MEDIUM,MEDIUM,1
+reflected xss in error page in legacy module.,LOCAL,MEDIUM,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,ADJACENT,HIGH,MEDIUM,1
+stored xss in user profile in legacy module.,NETWORK,HIGH,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,ADJACENT,LOW,MEDIUM,1
+stored xss in user profile affects version 2.0.,NETWORK,LOW,MEDIUM,1
+xml external entity (xxe) injection discovered in beta branch.,PHYSICAL,MEDIUM,MEDIUM,1
+reflected xss in error page in legacy module.,NETWORK,LOW,MEDIUM,1
+reflected xss in error page affects version 2.0.,PHYSICAL,LOW,MEDIUM,1
+session fixation in login exists in core component.,PHYSICAL,MEDIUM,MEDIUM,1
+session fixation in login affects version 2.0.,NETWORK,MEDIUM,MEDIUM,1
+stored xss in user profile affects version 2.0.,PHYSICAL,HIGH,MEDIUM,1
+stored xss in user profile in legacy module.,PHYSICAL,MEDIUM,MEDIUM,1
+reflected xss in error page exists in core component.,NETWORK,MEDIUM,MEDIUM,1
+reflected xss in error page in legacy module.,NETWORK,HIGH,MEDIUM,1
+reflected xss in error page exists in core component.,PHYSICAL,MEDIUM,MEDIUM,1
+reflected xss in error page affects version 2.0.,NETWORK,HIGH,MEDIUM,1
+session fixation in login in legacy module.,LOCAL,HIGH,MEDIUM,1
+improper input validation in api in legacy module.,LOCAL,HIGH,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,NETWORK,MEDIUM,MEDIUM,1
+stored xss in user profile affects version 2.0.,NETWORK,MEDIUM,MEDIUM,1
+reflected xss in error page affects version 2.0.,ADJACENT,MEDIUM,MEDIUM,1
+stored xss in user profile affects version 2.0.,LOCAL,HIGH,MEDIUM,1
+reflected xss in error page in legacy module.,LOCAL,HIGH,MEDIUM,1
+reflected xss in error page discovered in beta branch.,NETWORK,HIGH,MEDIUM,1
+stored xss in user profile affects version 2.0.,PHYSICAL,LOW,MEDIUM,1
+improper input validation in api discovered in beta branch.,LOCAL,MEDIUM,MEDIUM,1
+xml external entity (xxe) injection discovered in beta branch.,PHYSICAL,MEDIUM,MEDIUM,1
+stored xss in user profile affects version 2.0.,LOCAL,MEDIUM,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,ADJACENT,MEDIUM,MEDIUM,1
+session fixation in login affects version 2.0.,NETWORK,HIGH,MEDIUM,1
+xml external entity (xxe) injection discovered in beta branch.,PHYSICAL,HIGH,MEDIUM,1
+session fixation in login discovered in beta branch.,PHYSICAL,HIGH,MEDIUM,1
+improper input validation in api affects version 2.0.,ADJACENT,LOW,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,ADJACENT,LOW,MEDIUM,1
+session fixation in login exists in core component.,ADJACENT,HIGH,MEDIUM,1
+session fixation in login discovered in beta branch.,ADJACENT,MEDIUM,MEDIUM,1
+improper input validation in api affects version 2.0.,PHYSICAL,HIGH,MEDIUM,1
+session fixation in login discovered in beta branch.,PHYSICAL,LOW,MEDIUM,1
+improper input validation in api affects version 2.0.,LOCAL,LOW,MEDIUM,1
+improper input validation in api exists in core component.,ADJACENT,MEDIUM,MEDIUM,1
+stored xss in user profile affects version 2.0.,ADJACENT,LOW,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,NETWORK,HIGH,MEDIUM,1
+improper input validation in api affects version 2.0.,PHYSICAL,LOW,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,PHYSICAL,MEDIUM,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,NETWORK,HIGH,MEDIUM,1
+xml external entity (xxe) injection in legacy module.,LOCAL,HIGH,MEDIUM,1
+reflected xss in error page in legacy module.,PHYSICAL,LOW,MEDIUM,1
+session fixation in login exists in core component.,ADJACENT,HIGH,MEDIUM,1
+stored xss in user profile affects version 2.0.,PHYSICAL,MEDIUM,MEDIUM,1
+reflected xss in error page exists in core component.,LOCAL,MEDIUM,MEDIUM,1
+reflected xss in error page affects version 2.0.,ADJACENT,HIGH,MEDIUM,1
+xml external entity (xxe) injection exists in core component.,LOCAL,LOW,MEDIUM,1
+improper input validation in api in legacy module.,ADJACENT,MEDIUM,MEDIUM,1
+xml external entity (xxe) injection affects version 2.0.,NETWORK,LOW,MEDIUM,1
+cookie without secure flag exists in core component.,LOCAL,MEDIUM,LOW,0
+cookie without secure flag affects version 2.0.,LOCAL,LOW,LOW,0
+unsupported cipher suites discovered in beta branch.,PHYSICAL,MEDIUM,LOW,0
+cookie without secure flag affects version 2.0.,ADJACENT,LOW,LOW,0
+unsupported cipher suites discovered in beta branch.,LOCAL,MEDIUM,LOW,0
+unsupported cipher suites discovered in beta branch.,LOCAL,LOW,LOW,0
+path disclosure in debug mode in legacy module.,LOCAL,MEDIUM,LOW,0
+unsupported cipher suites in legacy module.,ADJACENT,LOW,LOW,0
+cookie without secure flag affects version 2.0.,NETWORK,LOW,LOW,0
+cookie without secure flag discovered in beta branch.,NETWORK,HIGH,LOW,0
+server version disclosure in legacy module.,PHYSICAL,LOW,LOW,0
+cookie without secure flag discovered in beta branch.,NETWORK,HIGH,LOW,0
+path disclosure in debug mode exists in core component.,ADJACENT,MEDIUM,LOW,0
+cookie without secure flag discovered in beta branch.,LOCAL,MEDIUM,LOW,0
+path disclosure in debug mode in legacy module.,PHYSICAL,HIGH,LOW,0
+path disclosure in debug mode discovered in beta branch.,ADJACENT,MEDIUM,LOW,0
+unsupported cipher suites discovered in beta branch.,ADJACENT,LOW,LOW,0
+path disclosure in debug mode affects version 2.0.,ADJACENT,LOW,LOW,0
+cookie without secure flag affects version 2.0.,LOCAL,MEDIUM,LOW,0
+unsupported cipher suites in legacy module.,ADJACENT,HIGH,LOW,0
+unsupported cipher suites exists in core component.,PHYSICAL,LOW,LOW,0
+server version disclosure exists in core component.,ADJACENT,MEDIUM,LOW,0
+cookie without secure flag affects version 2.0.,PHYSICAL,HIGH,LOW,0
+cookie without secure flag discovered in beta branch.,ADJACENT,LOW,LOW,0
+cookie without secure flag discovered in beta branch.,ADJACENT,MEDIUM,LOW,0
+unsupported cipher suites discovered in beta branch.,NETWORK,LOW,LOW,0
+path disclosure in debug mode exists in core component.,ADJACENT,LOW,LOW,0
+path disclosure in debug mode exists in core component.,LOCAL,MEDIUM,LOW,0
+cookie without secure flag exists in core component.,LOCAL,MEDIUM,LOW,0
+server version disclosure discovered in beta branch.,ADJACENT,HIGH,LOW,0
+unsupported cipher suites exists in core component.,NETWORK,HIGH,LOW,0
+path disclosure in debug mode affects version 2.0.,PHYSICAL,HIGH,LOW,0
+path disclosure in debug mode exists in core component.,NETWORK,MEDIUM,LOW,0
+server version disclosure affects version 2.0.,ADJACENT,LOW,LOW,0
+path disclosure in debug mode in legacy module.,PHYSICAL,LOW,LOW,0
+path disclosure in debug mode in legacy module.,PHYSICAL,LOW,LOW,0
+path disclosure in debug mode discovered in beta branch.,ADJACENT,HIGH,LOW,0
+unsupported cipher suites discovered in beta branch.,LOCAL,HIGH,LOW,0
+server version disclosure in legacy module.,ADJACENT,LOW,LOW,0
+unsupported cipher suites discovered in beta branch.,NETWORK,LOW,LOW,0
+path disclosure in debug mode affects version 2.0.,ADJACENT,HIGH,LOW,0
+cookie without secure flag exists in core component.,PHYSICAL,MEDIUM,LOW,0
+unsupported cipher suites discovered in beta branch.,LOCAL,LOW,LOW,0
+unsupported cipher suites in legacy module.,ADJACENT,LOW,LOW,0
+unsupported cipher suites exists in core component.,PHYSICAL,HIGH,LOW,0
+path disclosure in debug mode exists in core component.,ADJACENT,LOW,LOW,0
+server version disclosure in legacy module.,ADJACENT,LOW,LOW,0
+path disclosure in debug mode discovered in beta branch.,PHYSICAL,HIGH,LOW,0
+unsupported cipher suites discovered in beta branch.,PHYSICAL,HIGH,LOW,0
+server version disclosure affects version 2.0.,LOCAL,MEDIUM,LOW,0
+unsupported cipher suites in legacy module.,ADJACENT,MEDIUM,LOW,0
+path disclosure in debug mode discovered in beta branch.,LOCAL,LOW,LOW,0
+server version disclosure in legacy module.,PHYSICAL,MEDIUM,LOW,0
+server version disclosure exists in core component.,ADJACENT,HIGH,LOW,0
+cookie without secure flag affects version 2.0.,PHYSICAL,MEDIUM,LOW,0
+server version disclosure discovered in beta branch.,LOCAL,HIGH,LOW,0
+server version disclosure affects version 2.0.,ADJACENT,HIGH,LOW,0
+server version disclosure exists in core component.,NETWORK,HIGH,LOW,0
+cookie without secure flag affects version 2.0.,NETWORK,MEDIUM,LOW,0
+cookie without secure flag exists in core component.,NETWORK,HIGH,LOW,0
+unsupported cipher suites discovered in beta branch.,NETWORK,MEDIUM,LOW,0
+unsupported cipher suites exists in core component.,PHYSICAL,LOW,LOW,0
+path disclosure in debug mode exists in core component.,NETWORK,LOW,LOW,0
+unsupported cipher suites in legacy module.,LOCAL,MEDIUM,LOW,0
+unsupported cipher suites exists in core component.,NETWORK,LOW,LOW,0
+server version disclosure affects version 2.0.,NETWORK,HIGH,LOW,0
+unsupported cipher suites exists in core component.,ADJACENT,MEDIUM,LOW,0
+server version disclosure affects version 2.0.,LOCAL,MEDIUM,LOW,0
+cookie without secure flag exists in core component.,NETWORK,HIGH,LOW,0
+server version disclosure affects version 2.0.,PHYSICAL,MEDIUM,LOW,0
+server version disclosure affects version 2.0.,PHYSICAL,HIGH,LOW,0
+unsupported cipher suites exists in core component.,NETWORK,MEDIUM,LOW,0
+cookie without secure flag exists in core component.,LOCAL,MEDIUM,LOW,0
+cookie without secure flag in legacy module.,ADJACENT,MEDIUM,LOW,0
+server version disclosure discovered in beta branch.,LOCAL,HIGH,LOW,0
+path disclosure in debug mode discovered in beta branch.,ADJACENT,MEDIUM,LOW,0
+cookie without secure flag affects version 2.0.,LOCAL,HIGH,LOW,0
+unsupported cipher suites in legacy module.,PHYSICAL,MEDIUM,LOW,0
+path disclosure in debug mode exists in core component.,ADJACENT,MEDIUM,LOW,0
+server version disclosure in legacy module.,ADJACENT,MEDIUM,LOW,0
+path disclosure in debug mode discovered in beta branch.,LOCAL,MEDIUM,LOW,0
+unsupported cipher suites exists in core component.,PHYSICAL,LOW,LOW,0
+path disclosure in debug mode in legacy module.,PHYSICAL,MEDIUM,LOW,0
+path disclosure in debug mode affects version 2.0.,ADJACENT,MEDIUM,LOW,0
+cookie without secure flag in legacy module.,LOCAL,LOW,LOW,0
+path disclosure in debug mode in legacy module.,ADJACENT,MEDIUM,LOW,0
+unsupported cipher suites in legacy module.,NETWORK,HIGH,LOW,0
+path disclosure in debug mode affects version 2.0.,NETWORK,HIGH,LOW,0
+path disclosure in debug mode exists in core component.,ADJACENT,HIGH,LOW,0
+server version disclosure exists in core component.,ADJACENT,LOW,LOW,0
+cookie without secure flag affects version 2.0.,ADJACENT,HIGH,LOW,0
+path disclosure in debug mode affects version 2.0.,NETWORK,MEDIUM,LOW,0
+cookie without secure flag affects version 2.0.,LOCAL,HIGH,LOW,0
+server version disclosure exists in core component.,PHYSICAL,HIGH,LOW,0
+server version disclosure affects version 2.0.,NETWORK,LOW,LOW,0
+path disclosure in debug mode affects version 2.0.,PHYSICAL,HIGH,LOW,0
+cookie without secure flag in legacy module.,ADJACENT,HIGH,LOW,0
+cookie without secure flag affects version 2.0.,ADJACENT,HIGH,LOW,0
+unsupported cipher suites discovered in beta branch.,PHYSICAL,LOW,LOW,0
+unsupported cipher suites discovered in beta branch.,NETWORK,LOW,LOW,0
+path disclosure in debug mode discovered in beta branch.,PHYSICAL,MEDIUM,LOW,0
+unsupported cipher suites exists in core component.,LOCAL,HIGH,LOW,0
+unsupported cipher suites exists in core component.,ADJACENT,HIGH,LOW,0
+unsupported cipher suites exists in core component.,LOCAL,MEDIUM,LOW,0
+path disclosure in debug mode affects version 2.0.,NETWORK,HIGH,LOW,0
+unsupported cipher suites affects version 2.0.,NETWORK,LOW,LOW,0
+unsupported cipher suites discovered in beta branch.,ADJACENT,HIGH,LOW,0
+cookie without secure flag affects version 2.0.,ADJACENT,HIGH,LOW,0
+path disclosure in debug mode discovered in beta branch.,ADJACENT,HIGH,LOW,0
+path disclosure in debug mode exists in core component.,LOCAL,LOW,LOW,0
+path disclosure in debug mode in legacy module.,LOCAL,LOW,LOW,0
+server version disclosure discovered in beta branch.,LOCAL,HIGH,LOW,0
+path disclosure in debug mode in legacy module.,NETWORK,HIGH,LOW,0
+unsupported cipher suites discovered in beta branch.,PHYSICAL,LOW,LOW,0
+unsupported cipher suites exists in core component.,PHYSICAL,LOW,LOW,0
+cookie without secure flag in legacy module.,ADJACENT,MEDIUM,LOW,0
+cookie without secure flag exists in core component.,NETWORK,MEDIUM,LOW,0
+cookie without secure flag discovered in beta branch.,NETWORK,HIGH,LOW,0
+unsupported cipher suites affects version 2.0.,PHYSICAL,HIGH,LOW,0
+server version disclosure in legacy module.,ADJACENT,LOW,LOW,0
+path disclosure in debug mode in legacy module.,PHYSICAL,LOW,LOW,0
+cookie without secure flag in legacy module.,LOCAL,LOW,LOW,0
+cookie without secure flag exists in core component.,NETWORK,LOW,LOW,0
+unsupported cipher suites in legacy module.,LOCAL,HIGH,LOW,0
+server version disclosure in legacy module.,NETWORK,MEDIUM,LOW,0
+unsupported cipher suites affects version 2.0.,ADJACENT,HIGH,LOW,0
+cookie without secure flag exists in core component.,LOCAL,HIGH,LOW,0
+unsupported cipher suites affects version 2.0.,LOCAL,MEDIUM,LOW,0
+server version disclosure discovered in beta branch.,ADJACENT,LOW,LOW,0
+unsupported cipher suites discovered in beta branch.,PHYSICAL,HIGH,LOW,0
+unsupported cipher suites exists in core component.,LOCAL,HIGH,LOW,0
+unsupported cipher suites exists in core component.,ADJACENT,MEDIUM,LOW,0
+server version disclosure in legacy module.,ADJACENT,MEDIUM,LOW,0
+cookie without secure flag exists in core component.,ADJACENT,MEDIUM,LOW,0
+path disclosure in debug mode in legacy module.,NETWORK,MEDIUM,LOW,0
+cookie without secure flag exists in core component.,NETWORK,LOW,LOW,0
+server version disclosure in legacy module.,LOCAL,LOW,LOW,0
+server version disclosure discovered in beta branch.,ADJACENT,HIGH,LOW,0
+path disclosure in debug mode discovered in beta branch.,PHYSICAL,MEDIUM,LOW,0
+unsupported cipher suites discovered in beta branch.,PHYSICAL,MEDIUM,LOW,0
+unsupported cipher suites exists in core component.,NETWORK,LOW,LOW,0
+cookie without secure flag in legacy module.,LOCAL,LOW,LOW,0
+path disclosure in debug mode affects version 2.0.,LOCAL,MEDIUM,LOW,0
+cookie without secure flag exists in core component.,LOCAL,LOW,LOW,0
+unsupported cipher suites exists in core component.,ADJACENT,MEDIUM,LOW,0
+server version disclosure affects version 2.0.,ADJACENT,HIGH,LOW,0
+cookie without secure flag exists in core component.,ADJACENT,LOW,LOW,0
+path disclosure in debug mode exists in core component.,LOCAL,MEDIUM,LOW,0
+cookie without secure flag in legacy module.,ADJACENT,LOW,LOW,0
+server version disclosure discovered in beta branch.,LOCAL,LOW,LOW,0
+server version disclosure affects version 2.0.,LOCAL,MEDIUM,LOW,0
+path disclosure in debug mode affects version 2.0.,PHYSICAL,HIGH,LOW,0
+cookie without secure flag in legacy module.,ADJACENT,HIGH,LOW,0
+unsupported cipher suites affects version 2.0.,NETWORK,HIGH,LOW,0
+cookie without secure flag discovered in beta branch.,LOCAL,LOW,LOW,0
+cookie without secure flag in legacy module.,ADJACENT,MEDIUM,LOW,0
+cookie without secure flag affects version 2.0.,PHYSICAL,MEDIUM,LOW,0
+server version disclosure in legacy module.,PHYSICAL,HIGH,LOW,0
+server version disclosure in legacy module.,LOCAL,HIGH,LOW,0
+path disclosure in debug mode in legacy module.,NETWORK,LOW,LOW,0
+cookie without secure flag discovered in beta branch.,NETWORK,LOW,LOW,0
+cookie without secure flag discovered in beta branch.,NETWORK,HIGH,LOW,0
+path disclosure in debug mode in legacy module.,LOCAL,MEDIUM,LOW,0
+unsupported cipher suites in legacy module.,LOCAL,HIGH,LOW,0
+server version disclosure in legacy module.,NETWORK,LOW,LOW,0
+unsupported cipher suites in legacy module.,PHYSICAL,HIGH,LOW,0
+server version disclosure discovered in beta branch.,ADJACENT,MEDIUM,LOW,0
+unsupported cipher suites discovered in beta branch.,NETWORK,MEDIUM,LOW,0
+server version disclosure exists in core component.,PHYSICAL,HIGH,LOW,0
+unsupported cipher suites affects version 2.0.,ADJACENT,HIGH,LOW,0
+server version disclosure exists in core component.,NETWORK,HIGH,LOW,0
+unsupported cipher suites affects version 2.0.,NETWORK,LOW,LOW,0
+unsupported cipher suites affects version 2.0.,NETWORK,HIGH,LOW,0
+server version disclosure affects version 2.0.,NETWORK,MEDIUM,LOW,0
+server version disclosure in legacy module.,LOCAL,MEDIUM,LOW,0
+server version disclosure in legacy module.,NETWORK,LOW,LOW,0
+cookie without secure flag in legacy module.,ADJACENT,MEDIUM,LOW,0
+unsupported cipher suites exists in core component.,ADJACENT,HIGH,LOW,0
+path disclosure in debug mode affects version 2.0.,ADJACENT,MEDIUM,LOW,0
+path disclosure in debug mode exists in core component.,NETWORK,LOW,LOW,0
+server version disclosure affects version 2.0.,NETWORK,LOW,LOW,0
+unsupported cipher suites in legacy module.,LOCAL,HIGH,LOW,0
+cookie without secure flag discovered in beta branch.,NETWORK,LOW,LOW,0
+server version disclosure affects version 2.0.,PHYSICAL,MEDIUM,LOW,0
+unsupported cipher suites discovered in beta branch.,PHYSICAL,HIGH,LOW,0
+cookie without secure flag exists in core component.,ADJACENT,LOW,LOW,0
+unsupported cipher suites affects version 2.0.,ADJACENT,HIGH,LOW,0
+path disclosure in debug mode discovered in beta branch.,LOCAL,HIGH,LOW,0
+server version disclosure exists in core component.,LOCAL,HIGH,LOW,0
+cookie without secure flag affects version 2.0.,PHYSICAL,LOW,LOW,0
+cookie without secure flag discovered in beta branch.,ADJACENT,MEDIUM,LOW,0
+path disclosure in debug mode in legacy module.,LOCAL,HIGH,LOW,0
+server version disclosure discovered in beta branch.,NETWORK,LOW,LOW,0
+path disclosure in debug mode discovered in beta branch.,PHYSICAL,LOW,LOW,0
+cookie without secure flag in legacy module.,PHYSICAL,LOW,LOW,0
+server version disclosure discovered in beta branch.,NETWORK,LOW,LOW,0
+cookie without secure flag in legacy module.,ADJACENT,MEDIUM,LOW,0
+path disclosure in debug mode discovered in beta branch.,LOCAL,HIGH,LOW,0
+cookie without secure flag in legacy module.,NETWORK,MEDIUM,LOW,0
+path disclosure in debug mode in legacy module.,LOCAL,HIGH,LOW,0
+unsupported cipher suites exists in core component.,PHYSICAL,HIGH,LOW,0
+server version disclosure exists in core component.,LOCAL,HIGH,LOW,0
+path disclosure in debug mode in legacy module.,NETWORK,MEDIUM,LOW,0
+server version disclosure exists in core component.,ADJACENT,MEDIUM,LOW,0
+cookie without secure flag in legacy module.,PHYSICAL,LOW,LOW,0
+cookie without secure flag affects version 2.0.,NETWORK,MEDIUM,LOW,0
+server version disclosure in legacy module.,NETWORK,MEDIUM,LOW,0
+server version disclosure affects version 2.0.,NETWORK,MEDIUM,LOW,0
+path disclosure in debug mode affects version 2.0.,LOCAL,HIGH,LOW,0
+cookie without secure flag discovered in beta branch.,PHYSICAL,HIGH,LOW,0
+unsupported cipher suites exists in core component.,LOCAL,LOW,LOW,0
+path disclosure in debug mode affects version 2.0.,LOCAL,HIGH,LOW,0
+path disclosure in debug mode in legacy module.,PHYSICAL,MEDIUM,LOW,0
+cookie without secure flag exists in core component.,ADJACENT,LOW,LOW,0
+cookie without secure flag in legacy module.,PHYSICAL,MEDIUM,LOW,0
+server version disclosure exists in core component.,LOCAL,MEDIUM,LOW,0
+cookie without secure flag in legacy module.,LOCAL,MEDIUM,LOW,0
+server version disclosure exists in core component.,ADJACENT,LOW,LOW,0
+cookie without secure flag in legacy module.,PHYSICAL,HIGH,LOW,0
+unsupported cipher suites in legacy module.,ADJACENT,HIGH,LOW,0
+server version disclosure affects version 2.0.,PHYSICAL,HIGH,LOW,0
+cookie without secure flag exists in core component.,LOCAL,MEDIUM,LOW,0
+unsupported cipher suites affects version 2.0.,NETWORK,MEDIUM,LOW,0
+server version disclosure discovered in beta branch.,NETWORK,HIGH,LOW,0
+unsupported cipher suites in legacy module.,NETWORK,LOW,LOW,0
+server version disclosure discovered in beta branch.,LOCAL,HIGH,LOW,0
+unsupported cipher suites exists in core component.,ADJACENT,HIGH,LOW,0
+cookie without secure flag discovered in beta branch.,LOCAL,HIGH,LOW,0
+server version disclosure affects version 2.0.,ADJACENT,HIGH,LOW,0
+cookie without secure flag exists in core component.,NETWORK,MEDIUM,LOW,0
+unsupported cipher suites affects version 2.0.,LOCAL,MEDIUM,LOW,0
+path disclosure in debug mode discovered in beta branch.,NETWORK,HIGH,LOW,0
+cookie without secure flag exists in core component.,NETWORK,MEDIUM,LOW,0
+server version disclosure affects version 2.0.,ADJACENT,MEDIUM,LOW,0
+unsupported cipher suites affects version 2.0.,LOCAL,HIGH,LOW,0
+server version disclosure affects version 2.0.,PHYSICAL,LOW,LOW,0
+server version disclosure discovered in beta branch.,NETWORK,HIGH,LOW,0
+unsupported cipher suites in legacy module.,LOCAL,LOW,LOW,0
+server version disclosure discovered in beta branch.,PHYSICAL,MEDIUM,LOW,0
+cookie without secure flag exists in core component.,NETWORK,HIGH,LOW,0
+unsupported cipher suites discovered in beta branch.,LOCAL,MEDIUM,LOW,0
+path disclosure in debug mode affects version 2.0.,NETWORK,LOW,LOW,0
+server version disclosure in legacy module.,NETWORK,MEDIUM,LOW,0
+unsupported cipher suites in legacy module.,ADJACENT,LOW,LOW,0
+cookie without secure flag in legacy module.,NETWORK,HIGH,LOW,0
+unsupported cipher suites in legacy module.,PHYSICAL,MEDIUM,LOW,0
+cookie without secure flag affects version 2.0.,PHYSICAL,MEDIUM,LOW,0
+server version disclosure discovered in beta branch.,NETWORK,HIGH,LOW,0
+server version disclosure exists in core component.,ADJACENT,MEDIUM,LOW,0
+unsupported cipher suites discovered in beta branch.,ADJACENT,LOW,LOW,0
