@@ -1,0 +1,14 @@
+{
+  "Random Forest": {
+    "accuracy": 1.0,
+    "f1_score": 1.0
+  },
+  "Logistic Regression": {
+    "accuracy": 1.0,
+    "f1_score": 1.0
+  },
+  "XGBoost": {
+    "accuracy": 0.9166666666666666,
+    "f1_score": 0.9230769230769231
+  }
+}

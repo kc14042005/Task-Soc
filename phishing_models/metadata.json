@@ -1,0 +1,21 @@
+{
+  "best_model_name": "Random Forest",
+  "features": [
+    "url_length",
+    "domain_length",
+    "num_dots",
+    "num_hyphens",
+    "num_at",
+    "num_question",
+    "num_equal",
+    "num_amp",
+    "num_percent",
+    "num_slash",
+    "num_subdomains",
+    "is_https",
+    "has_ip",
+    "has_sensitive_keyword",
+    "has_suspicious_tld",
+    "digit_letter_ratio"
+  ]
+}

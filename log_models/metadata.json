@@ -1,0 +1,17 @@
+{
+  "best_model_name": "Isolation Forest",
+  "feature_names": [
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "is_night",
+    "user_encoded",
+    "source_ip_encoded",
+    "action_encoded",
+    "status_encoded",
+    "session_duration",
+    "bytes_transferred",
+    "failed_attempts",
+    "privilege_level"
+  ]
+}

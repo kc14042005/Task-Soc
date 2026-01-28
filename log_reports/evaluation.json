@@ -1,0 +1,34 @@
+{
+  "Isolation Forest": {
+    "accuracy": 0.98,
+    "precision": 0.95,
+    "recall": 0.95,
+    "f1_score": 0.95,
+    "confusion_matrix": [
+      [
+        790,
+        10
+      ],
+      [
+        10,
+        190
+      ]
+    ]
+  },
+  "One-Class SVM": {
+    "accuracy": 0.927,
+    "precision": 0.8223350253807107,
+    "recall": 0.81,
+    "f1_score": 0.8161209068010076,
+    "confusion_matrix": [
+      [
+        765,
+        35
+      ],
+      [
+        38,
+        162
+      ]
+    ]
+  }
+}

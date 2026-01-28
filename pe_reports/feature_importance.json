@@ -1,0 +1,21 @@
+{
+  "num_suspicious_imports": 0.25499296684410333,
+  "data_section_entropy": 0.1686970046971085,
+  "suspicious_section_names": 0.16833196304952933,
+  "entropy": 0.09509342722444686,
+  "import_address_table_size": 0.09154808573241466,
+  "code_section_entropy": 0.060849919719909884,
+  "num_sections": 0.0567552180613587,
+  "num_imports": 0.029626236587387184,
+  "num_api_calls": 0.01698491679573861,
+  "has_debug": 0.014355993873593877,
+  "resource_section_size": 0.011245528166684482,
+  "packer_detected": 0.009372030354898942,
+  "num_dll_imports": 0.006689015941984602,
+  "has_signature": 0.006361228614744252,
+  "file_size": 0.005190214336096763,
+  "virtual_size": 0.0019682655038759695,
+  "num_exports": 0.001417151162790698,
+  "raw_size": 0.0005208333333333329,
+  "has_tls": 0.0
+}

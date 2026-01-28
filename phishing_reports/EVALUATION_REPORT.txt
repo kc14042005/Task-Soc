@@ -1,0 +1,41 @@
+
+============================================================
+PHISHING URL DETECTOR - EVALUATION REPORT
+============================================================
+
+1. PROJECT OVERVIEW
+-------------------
+The Phishing URL Detector is a Mini SOC Tool designed to 
+identify malicious URLs using machine learning. It analyzes 
+16 distinct features related to URL structure, domain characteristics, 
+and content patterns.
+
+2. FEATURES ANALYZED
+--------------------
+- URL/Domain Length
+- Character Counts (dots, hyphens, special characters)
+- Structural Analysis (HTTPS presence, subdomain count)
+- Content Indicators (IP addresses, sensitive keywords like 'login')
+- Suspicious TLD Analysis (.xyz, .top, .pw, etc.)
+- Digit-to-letter ratio
+
+3. MODEL PERFORMANCE
+--------------------
+| Model               | Accuracy | F1-Score |
+|---------------------|----------|----------|
+| Random Forest        | 1.0000   | 1.0000   |
+| Logistic Regression  | 1.0000   | 1.0000   |
+| XGBoost              | 0.9167   | 0.9231   |
+
+BEST MODEL: Random Forest
+
+4. CONCLUSION
+-------------
+The models demonstrate high efficacy in distinguishing between 
+legitimate and phishing URLs in the synthetic test environment. 
+Random Forest and Logistic Regression typically show 100% 
+accuracy on this feature set due to the clear distinctions 
+in URL structures used by attackers.
+
+Generated on: 2026-01-27
+============================================================

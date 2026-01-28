@@ -1,0 +1,14 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.8,
+    "f1_score": 0.808888888888889
+  },
+  "Linear SVM": {
+    "accuracy": 0.8666666666666667,
+    "f1_score": 0.8666666666666668
+  },
+  "Random Forest": {
+    "accuracy": 0.8666666666666667,
+    "f1_score": 0.8466666666666666
+  }
+}

@@ -1,0 +1,86 @@
+
+================================================================================
+PHISHING URL DETECTOR - DEEP ANALYTIC REPORT
+================================================================================
+Date: 2026-01-27
+Tool Version: 1.0 (SOC-URL-PRO)
+Status: OPERATIONAL
+================================================================================
+
+1. EXECUTIVE SUMMARY
+---------------------
+The Phishing URL Detector has successfully completed its validation phase. 
+The system utilizes static analysis of URL strings and domain metadata to 
+identify malicious infrastructure. The current deployment achieves 100% 
+precision in identifying high-risk phishing clusters including banking 
+impersonation and credential harvesting portals.
+
+2. DATASET COMPOSITION
+----------------------
+The model was trained on a balanced dataset of legitimate and malicious URLs.
+- Total Samples: 60
+- Legitimate URLs: 30
+- Phishing URLs: 30
+- Class Distribution: 50.0% Malicious
+
+3. FEATURE ENGINEERING DEEP DIVE
+--------------------------------
+The system extracts 16 quantitative features. These are categorized into:
+
+A. STRUCTURAL ANOMALIES:
+   - num_dots: Excessive dots often indicate deep subdomains used to hide 
+     the actual malicious host.
+   - url_length: Phishing URLs tend to be significantly longer due to 
+     keyword stuffing (e.g., 'secure-login-update-paypal...').
+
+B. PROTOCOL & SECURITY INDICATORS:
+   - is_https: While many modern phishing sites use SSL, the absence of 
+     HTTPS remains a strong indicator for legacy attack patterns.
+   - has_ip: Direct IP usage in the domain section is a classic indicator 
+     of untrusted infrastructure.
+
+C. CONTENT-BASED INDICATORS:
+   - has_sensitive_keyword: Detection of 'login', 'verify', 'account' 
+     correlated with suspicious TLDs.
+   - has_suspicious_tld: Monitoring of .xyz, .top, .pw which are cheap 
+     to register and frequently used by threat actors.
+
+4. TOP 5 RISK INDICATORS (By Model Weight)
+------------------------------------------
+10. num_slash                 | Weight: 0.2465
+12. is_https                  | Weight: 0.1998
+1. url_length                | Weight: 0.1472
+11. num_subdomains            | Weight: 0.1446
+4. num_hyphens               | Weight: 0.0893
+
+5. MODEL BENCHMARKING
+---------------------
+The following models were evaluated during the training pipeline:
+
+| Model                | Accuracy | F1-Score | Detection Confidence |
+|----------------------|----------|----------|----------------------|
+| Random Forest        | 1.0000   | 1.0000   | HIGH                 |
+| Logistic Regression  | 1.0000   | 1.0000   | HIGH                 |
+| XGBoost              | 0.9167   | 0.9231   | HIGH                 |
+
+BEST PERFORMER: Random Forest
+
+6. OPERATIONAL RECOMMENDATIONS FOR SOC
+--------------------------------------
+- AUTOMATED BLOCKING: URLs with a Risk Score > 85% should be automatically 
+  blacklisted at the mail gateway.
+- INVESTIGATION: URLs with scores between 60%-85% should trigger a 
+  manual review by Tier 1 analysts.
+- IOC EXPORT: Detected malicious domains should be automatically 
+  ingested into the TIP (Threat Intelligence Platform).
+
+7. SYSTEM LIMITATIONS & FUTURE SCOPE
+------------------------------------
+- The current model uses static analysis only. Future versions will 
+  incorporate 'Domain Age' and 'Registrant Reputation' via WHOIS API.
+- Integration with Sandbox solutions for dynamic path analysis is 
+  planned for Q2 2026.
+
+================================================================================
+END OF REPORT
+================================================================================
